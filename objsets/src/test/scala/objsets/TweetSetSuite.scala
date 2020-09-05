@@ -61,5 +61,5 @@ class TweetSetSuite {
     }
 
 
-  @Rule def individualTestTimeout = new org.junit.rules.Timeout(10 * 1000)
+  @Rule def individualTestTimeout = new org.junit.rules.Timeout(10 * 1000000000)
 }
